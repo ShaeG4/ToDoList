@@ -28,7 +28,21 @@ Full-stack to-do list application built with:
 - Priority levels
 - Calendar view with task indicators
 
+## Challenges so far:
+- A lot of react problems(pages wouldnt be loading)
+- Finding good stytles to use to make the website give it that look
+- Looking at different videos for Authcontext and provider and how
+
 ## Out of Scope (for now)
 - AI assistant
 - Notifications
 - Smart scheduling
+
+## Task objectives
+
+{
+  id: string,
+  title: string,
+  priority: "high" | "medium" | "low" | "least",
+  completed: boolean
+}
